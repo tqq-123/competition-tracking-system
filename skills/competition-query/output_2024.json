@@ -1,0 +1,803 @@
+{
+  "status": "success",
+  "search": "2024",
+  "page": 1,
+  "data": {
+    "count": 8398,
+    "page_size": 30,
+    "page": 1,
+    "next": "https://www.lanqiao.cn/api/v2/problems/?page=2&page_size=30&search=2024",
+    "previous": null,
+    "results": [
+      {
+        "id": 504,
+        "name": "单词分析",
+        "tags": [
+          "2020",
+          "模拟",
+          "枚举",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 201156,
+          "pass_rate": 0.878
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 1,
+        "difficulty_value": 103
+      },
+      {
+        "id": 502,
+        "name": "成绩统计",
+        "tags": [
+          "2020",
+          "模拟",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 125986,
+          "pass_rate": 0.907
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 2,
+        "difficulty_value": 283
+      },
+      {
+        "id": 592,
+        "name": "门牌制作",
+        "tags": [
+          "2020",
+          "模拟",
+          "枚举",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 116149,
+          "pass_rate": 0.962
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 1,
+        "difficulty_value": 103
+      },
+      {
+        "id": 89,
+        "name": "路径之谜",
+        "tags": [
+          "2016",
+          "国赛",
+          "DFS"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 99399,
+          "pass_rate": 0.777
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 6,
+        "difficulty_value": 1116
+      },
+      {
+        "id": 609,
+        "name": "最短路",
+        "tags": [
+          "2019",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 95077,
+          "pass_rate": 0.971
+        },
+        "contain_answer": false,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 8,
+        "difficulty_value": 0
+      },
+      {
+        "id": 19695,
+        "name": "握手问题",
+        "tags": [
+          "省赛",
+          "数学",
+          "2024"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 94014,
+          "pass_rate": 0.894
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 1,
+        "difficulty_value": 103
+      },
+      {
+        "id": 505,
+        "name": "数字三角形",
+        "tags": [
+          "2020",
+          "省赛",
+          "动态规划",
+          "DFS"
+        ],
+        "type": "contest_oj",
+        "difficulty": 10,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 89942,
+          "pass_rate": 0.796
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 13,
+        "difficulty_value": 0
+      },
+      {
+        "id": 498,
+        "name": "回文日期",
+        "tags": [
+          "2020",
+          "模拟",
+          "构造",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 88225,
+          "pass_rate": 0.687
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 8,
+        "difficulty_value": 1564
+      },
+      {
+        "id": 99,
+        "name": "分巧克力",
+        "tags": [
+          "2017",
+          "省赛",
+          "二分"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 86985,
+          "pass_rate": 0.868
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 2,
+        "difficulty_value": 318
+      },
+      {
+        "id": 1443,
+        "name": "卡片",
+        "tags": [
+          "2021",
+          "模拟",
+          "枚举",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 84079,
+          "pass_rate": 0.963
+        },
+        "contain_answer": false,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 2,
+        "difficulty_value": 283
+      },
+      {
+        "id": 19709,
+        "name": "好数",
+        "tags": [
+          "暴力",
+          "枚举",
+          "省赛",
+          "2024"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 78611,
+          "pass_rate": 0.881
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 4,
+        "difficulty_value": 632
+      },
+      {
+        "id": 1445,
+        "name": "空间",
+        "tags": [
+          "2021",
+          "省赛",
+          "单位换算"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 77413,
+          "pass_rate": 0.957
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 2,
+        "difficulty_value": 222
+      },
+      {
+        "id": 2095,
+        "name": "九进制转十进制",
+        "tags": [
+          "2022",
+          "省赛",
+          "进制转换"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 76971,
+          "pass_rate": 0.961
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 1,
+        "difficulty_value": 184
+      },
+      {
+        "id": 97,
+        "name": "k倍区间",
+        "tags": [
+          "2017",
+          "暴力",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 75163,
+          "pass_rate": 0.664
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 2,
+        "difficulty_value": 344
+      },
+      {
+        "id": 2060,
+        "name": "裁纸刀",
+        "tags": [
+          "2022",
+          "规律",
+          "思维",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 75007,
+          "pass_rate": 0.961
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 7,
+        "difficulty_value": 1282
+      },
+      {
+        "id": 497,
+        "name": "成绩分析",
+        "tags": [
+          "2020",
+          "模拟",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 74265,
+          "pass_rate": 0.94
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 2,
+        "difficulty_value": 222
+      },
+      {
+        "id": 1463,
+        "name": "货物摆放",
+        "tags": [
+          "2021",
+          "枚举",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 66929,
+          "pass_rate": 0.836
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 7,
+        "difficulty_value": 1201
+      },
+      {
+        "id": 19732,
+        "name": "小球反弹",
+        "tags": [
+          "思维",
+          "省赛",
+          "数学",
+          "2024"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 66860,
+          "pass_rate": 0.656
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 7,
+        "difficulty_value": 1360
+      },
+      {
+        "id": 597,
+        "name": "跑步锻炼",
+        "tags": [
+          "2020",
+          "模拟",
+          "枚举",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 65644,
+          "pass_rate": 0.94
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 4,
+        "difficulty_value": 617
+      },
+      {
+        "id": 594,
+        "name": "蛇形填数",
+        "tags": [
+          "2020",
+          "模拟",
+          "规律",
+          "思维",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 65427,
+          "pass_rate": 0.961
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 4,
+        "difficulty_value": 632
+      },
+      {
+        "id": 202,
+        "name": "确定字符串是否包含唯一字符",
+        "tags": [
+          "新手"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 65012,
+          "pass_rate": 0.868
+        },
+        "contain_answer": false,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 6,
+        "is_new": false,
+        "difficulty_level": 1,
+        "difficulty_value": 125
+      },
+      {
+        "id": 3492,
+        "name": "日期统计",
+        "tags": [
+          "2023",
+          "暴力",
+          "枚举",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 64063,
+          "pass_rate": 0.775
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 7,
+        "difficulty_value": 1282
+      },
+      {
+        "id": 254,
+        "name": "A+B 问题【OJ 示例题目】",
+        "tags": [
+          "语法"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 63560,
+          "pass_rate": 0.97
+        },
+        "contain_answer": false,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 6,
+        "is_new": false,
+        "difficulty_level": 1,
+        "difficulty_value": 103
+      },
+      {
+        "id": 1446,
+        "name": "ASC",
+        "tags": [
+          "2021",
+          "省赛",
+          "单位换算"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 62524,
+          "pass_rate": 0.973
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 2,
+        "difficulty_value": 283
+      },
+      {
+        "id": 1452,
+        "name": "时间显示",
+        "tags": [
+          "2021",
+          "省赛",
+          "单位换算"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 62092,
+          "pass_rate": 0.942
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 1,
+        "difficulty_value": 184
+      },
+      {
+        "id": 1457,
+        "name": "杨辉三角形",
+        "tags": [
+          "2021",
+          "规律",
+          "思维",
+          "省赛",
+          "二分"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 60822,
+          "pass_rate": 0.402
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 9,
+        "difficulty_value": 1624
+      },
+      {
+        "id": 2096,
+        "name": "顺子日期",
+        "tags": [
+          "2022",
+          "模拟",
+          "枚举",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 58879,
+          "pass_rate": 0.879
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 3,
+        "difficulty_value": 409
+      },
+      {
+        "id": 3510,
+        "name": "冶炼金属",
+        "tags": [
+          "2023",
+          "省赛",
+          "二分"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 58317,
+          "pass_rate": 0.831
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 3,
+        "difficulty_value": 480
+      },
+      {
+        "id": 645,
+        "name": "购物单",
+        "tags": [
+          "2017",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 57569,
+          "pass_rate": 0.94
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 6,
+        "difficulty_value": 1116
+      },
+      {
+        "id": 2098,
+        "name": "刷题统计",
+        "tags": [
+          "2022",
+          "模拟",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 30,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 56347,
+          "pass_rate": 0.687
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 3,
+        "difficulty_value": 462
+      }
+    ]
+  }
+}
