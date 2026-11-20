@@ -5,6 +5,7 @@ import requests
 from datetime import datetime
 
 API_URL = "https://www.lanqiao.cn/api/v2/problems/"
+DATA_DIR = "/home/admin/competition-demo/data"
 
 def fetch_current(search, page=1, page_size=30):
     params = {"page": page, "page_size": page_size, "search": search}
@@ -66,12 +67,22 @@ def main():
         "details": diff
     }
 
-    output_file = f"change_report_{args.search}.json"
+    # 1. 保存最新对比报告给前端 API 读取
+    output_file = os.path.join(DATA_DIR, f"change_report_{args.search}.json")
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
-    print(json.dumps(result, ensure_ascii=False, indent=2))
-    print(f"\n[已保存到 {output_file}]")
+    # 2. 如果有变化，写入告警日志，并更新旧快照！
+    if len(diff["added"]) > 0 or len(diff["removed"]) > 0 or len(diff["changed"]) > 0:
+        alert_file = os.path.join(DATA_DIR, "ALERT_LOG.txt")
+        with open(alert_file, "a", encoding="utf-8") as f:
+            f.write(f"[{result['check_time']}] 发现赛题变更！新增 {len(diff['added'])}，变化 {len(diff['changed'])}\n")
+        
+        new_data_wrapper = {"data": new_data}
+        with open(args.snapshot, "w", encoding="utf-8") as f:
+            json.dump(new_data_wrapper, f, ensure_ascii=False, indent=2)
+        
+    print(f"监测完成，已生成报告。")
 
 if __name__ == "__main__":
     main()

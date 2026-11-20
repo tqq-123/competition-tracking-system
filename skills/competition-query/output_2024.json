@@ -3,7 +3,7 @@
   "search": "2024",
   "page": 1,
   "data": {
-    "count": 8398,
+    "count": 8467,
     "page_size": 30,
     "page": 1,
     "next": "https://www.lanqiao.cn/api/v2/problems/?page=2&page_size=30&search=2024",
@@ -13,19 +13,20 @@
         "id": 504,
         "name": "单词分析",
         "tags": [
+          "蓝桥杯",
           "2020",
           "模拟",
           "枚举",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 201156,
+          "students_count": 202256,
           "pass_rate": 0.878
         },
         "contain_answer": true,
@@ -40,18 +41,19 @@
         "id": 502,
         "name": "成绩统计",
         "tags": [
+          "蓝桥杯",
           "2020",
           "模拟",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 125986,
+          "students_count": 126371,
           "pass_rate": 0.907
         },
         "contain_answer": true,
@@ -66,19 +68,20 @@
         "id": 592,
         "name": "门牌制作",
         "tags": [
+          "蓝桥杯",
           "2020",
           "模拟",
           "枚举",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 116149,
+          "students_count": 116510,
           "pass_rate": 0.962
         },
         "contain_answer": true,
@@ -93,6 +96,7 @@
         "id": 89,
         "name": "路径之谜",
         "tags": [
+          "蓝桥杯",
           "2016",
           "国赛",
           "DFS"
@@ -104,7 +108,7 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 99399,
+          "students_count": 100544,
           "pass_rate": 0.777
         },
         "contain_answer": true,
@@ -119,6 +123,7 @@
         "id": 609,
         "name": "最短路",
         "tags": [
+          "蓝桥杯",
           "2019",
           "省赛"
         ],
@@ -129,7 +134,7 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 95077,
+          "students_count": 95175,
           "pass_rate": 0.971
         },
         "contain_answer": false,
@@ -144,18 +149,19 @@
         "id": 19695,
         "name": "握手问题",
         "tags": [
+          "蓝桥杯",
           "省赛",
           "数学",
           "2024"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 94014,
+          "students_count": 94243,
           "pass_rate": 0.894
         },
         "contain_answer": true,
@@ -170,6 +176,7 @@
         "id": 505,
         "name": "数字三角形",
         "tags": [
+          "蓝桥杯",
           "2020",
           "省赛",
           "动态规划",
@@ -182,7 +189,7 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 89942,
+          "students_count": 90287,
           "pass_rate": 0.796
         },
         "contain_answer": true,
@@ -197,19 +204,20 @@
         "id": 498,
         "name": "回文日期",
         "tags": [
+          "蓝桥杯",
           "2020",
           "模拟",
           "构造",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 20,
+        "difficulty": 10,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 88225,
+          "students_count": 88407,
           "pass_rate": 0.687
         },
         "contain_answer": true,
@@ -224,18 +232,19 @@
         "id": 99,
         "name": "分巧克力",
         "tags": [
+          "蓝桥杯",
           "2017",
           "省赛",
           "二分"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 86985,
+          "students_count": 87955,
           "pass_rate": 0.868
         },
         "contain_answer": true,
@@ -250,19 +259,20 @@
         "id": 1443,
         "name": "卡片",
         "tags": [
+          "蓝桥杯",
           "2021",
           "模拟",
           "枚举",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 84079,
+          "students_count": 84331,
           "pass_rate": 0.963
         },
         "contain_answer": false,
@@ -277,19 +287,20 @@
         "id": 19709,
         "name": "好数",
         "tags": [
+          "蓝桥杯",
           "暴力",
           "枚举",
           "省赛",
           "2024"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 78611,
+          "students_count": 78741,
           "pass_rate": 0.881
         },
         "contain_answer": true,
@@ -304,18 +315,19 @@
         "id": 1445,
         "name": "空间",
         "tags": [
+          "蓝桥杯",
           "2021",
           "省赛",
           "单位换算"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 77413,
+          "students_count": 77617,
           "pass_rate": 0.957
         },
         "contain_answer": true,
@@ -330,6 +342,7 @@
         "id": 2095,
         "name": "九进制转十进制",
         "tags": [
+          "蓝桥杯",
           "2022",
           "省赛",
           "进制转换"
@@ -341,7 +354,7 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 76971,
+          "students_count": 77124,
           "pass_rate": 0.961
         },
         "contain_answer": true,
@@ -356,19 +369,20 @@
         "id": 97,
         "name": "k倍区间",
         "tags": [
+          "蓝桥杯",
           "2017",
           "暴力",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 75163,
-          "pass_rate": 0.664
+          "students_count": 76403,
+          "pass_rate": 0.665
         },
         "contain_answer": true,
         "is_charge": false,
@@ -382,6 +396,7 @@
         "id": 2060,
         "name": "裁纸刀",
         "tags": [
+          "蓝桥杯",
           "2022",
           "规律",
           "思维",
@@ -394,7 +409,7 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 75007,
+          "students_count": 75089,
           "pass_rate": 0.961
         },
         "contain_answer": true,
@@ -409,18 +424,19 @@
         "id": 497,
         "name": "成绩分析",
         "tags": [
+          "蓝桥杯",
           "2020",
           "模拟",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 74265,
+          "students_count": 74436,
           "pass_rate": 0.94
         },
         "contain_answer": true,
@@ -435,6 +451,7 @@
         "id": 1463,
         "name": "货物摆放",
         "tags": [
+          "蓝桥杯",
           "2021",
           "枚举",
           "省赛"
@@ -446,8 +463,8 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 66929,
-          "pass_rate": 0.836
+          "students_count": 67027,
+          "pass_rate": 0.837
         },
         "contain_answer": true,
         "is_charge": false,
@@ -461,6 +478,7 @@
         "id": 19732,
         "name": "小球反弹",
         "tags": [
+          "蓝桥杯",
           "思维",
           "省赛",
           "数学",
@@ -473,7 +491,7 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 66860,
+          "students_count": 66924,
           "pass_rate": 0.656
         },
         "contain_answer": true,
@@ -483,61 +501,6 @@
         "is_new": false,
         "difficulty_level": 7,
         "difficulty_value": 1360
-      },
-      {
-        "id": 597,
-        "name": "跑步锻炼",
-        "tags": [
-          "2020",
-          "模拟",
-          "枚举",
-          "省赛"
-        ],
-        "type": "contest_oj",
-        "difficulty": 30,
-        "lab_id": null,
-        "statistics": {
-          "score": null,
-          "open_at": null,
-          "is_open": true,
-          "students_count": 65644,
-          "pass_rate": 0.94
-        },
-        "contain_answer": true,
-        "is_charge": false,
-        "first_category_id": 1,
-        "second_category_id": 3,
-        "is_new": false,
-        "difficulty_level": 4,
-        "difficulty_value": 617
-      },
-      {
-        "id": 594,
-        "name": "蛇形填数",
-        "tags": [
-          "2020",
-          "模拟",
-          "规律",
-          "思维",
-          "省赛"
-        ],
-        "type": "contest_oj",
-        "difficulty": 30,
-        "lab_id": null,
-        "statistics": {
-          "score": null,
-          "open_at": null,
-          "is_open": true,
-          "students_count": 65427,
-          "pass_rate": 0.961
-        },
-        "contain_answer": true,
-        "is_charge": false,
-        "first_category_id": 1,
-        "second_category_id": 3,
-        "is_new": false,
-        "difficulty_level": 4,
-        "difficulty_value": 632
       },
       {
         "id": 202,
@@ -552,7 +515,7 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 65012,
+          "students_count": 65892,
           "pass_rate": 0.868
         },
         "contain_answer": false,
@@ -564,11 +527,12 @@
         "difficulty_value": 125
       },
       {
-        "id": 3492,
-        "name": "日期统计",
+        "id": 597,
+        "name": "跑步锻炼",
         "tags": [
-          "2023",
-          "暴力",
+          "蓝桥杯",
+          "2020",
+          "模拟",
           "枚举",
           "省赛"
         ],
@@ -579,16 +543,45 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 64063,
-          "pass_rate": 0.775
+          "students_count": 65793,
+          "pass_rate": 0.94
         },
         "contain_answer": true,
         "is_charge": false,
         "first_category_id": 1,
         "second_category_id": 3,
         "is_new": false,
-        "difficulty_level": 7,
-        "difficulty_value": 1282
+        "difficulty_level": 4,
+        "difficulty_value": 617
+      },
+      {
+        "id": 594,
+        "name": "蛇形填数",
+        "tags": [
+          "蓝桥杯",
+          "2020",
+          "模拟",
+          "规律",
+          "思维",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 20,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 65555,
+          "pass_rate": 0.962
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 4,
+        "difficulty_value": 632
       },
       {
         "id": 254,
@@ -603,7 +596,7 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 63560,
+          "students_count": 64206,
           "pass_rate": 0.97
         },
         "contain_answer": false,
@@ -615,9 +608,38 @@
         "difficulty_value": 103
       },
       {
+        "id": 3492,
+        "name": "日期统计",
+        "tags": [
+          "蓝桥杯",
+          "2023",
+          "暴力",
+          "枚举",
+          "省赛"
+        ],
+        "type": "contest_oj",
+        "difficulty": 10,
+        "lab_id": null,
+        "statistics": {
+          "score": null,
+          "open_at": null,
+          "is_open": true,
+          "students_count": 64170,
+          "pass_rate": 0.775
+        },
+        "contain_answer": true,
+        "is_charge": false,
+        "first_category_id": 1,
+        "second_category_id": 3,
+        "is_new": false,
+        "difficulty_level": 7,
+        "difficulty_value": 1282
+      },
+      {
         "id": 1446,
         "name": "ASC",
         "tags": [
+          "蓝桥杯",
           "2021",
           "省赛",
           "单位换算"
@@ -629,8 +651,8 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 62524,
-          "pass_rate": 0.973
+          "students_count": 62701,
+          "pass_rate": 0.974
         },
         "contain_answer": true,
         "is_charge": false,
@@ -644,18 +666,19 @@
         "id": 1452,
         "name": "时间显示",
         "tags": [
+          "蓝桥杯",
           "2021",
           "省赛",
           "单位换算"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 62092,
+          "students_count": 62410,
           "pass_rate": 0.942
         },
         "contain_answer": true,
@@ -670,6 +693,7 @@
         "id": 1457,
         "name": "杨辉三角形",
         "tags": [
+          "蓝桥杯",
           "2021",
           "规律",
           "思维",
@@ -677,14 +701,14 @@
           "二分"
         ],
         "type": "contest_oj",
-        "difficulty": 20,
+        "difficulty": 10,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 60822,
-          "pass_rate": 0.402
+          "students_count": 60925,
+          "pass_rate": 0.403
         },
         "contain_answer": true,
         "is_charge": false,
@@ -698,19 +722,20 @@
         "id": 2096,
         "name": "顺子日期",
         "tags": [
+          "蓝桥杯",
           "2022",
           "模拟",
           "枚举",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 58879,
+          "students_count": 58979,
           "pass_rate": 0.879
         },
         "contain_answer": true,
@@ -725,18 +750,19 @@
         "id": 3510,
         "name": "冶炼金属",
         "tags": [
+          "蓝桥杯",
           "2023",
           "省赛",
           "二分"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 58317,
+          "students_count": 58427,
           "pass_rate": 0.831
         },
         "contain_answer": true,
@@ -751,6 +777,7 @@
         "id": 645,
         "name": "购物单",
         "tags": [
+          "蓝桥杯",
           "2017",
           "省赛"
         ],
@@ -761,8 +788,8 @@
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 57569,
-          "pass_rate": 0.94
+          "students_count": 57619,
+          "pass_rate": 0.941
         },
         "contain_answer": true,
         "is_charge": false,
@@ -776,18 +803,19 @@
         "id": 2098,
         "name": "刷题统计",
         "tags": [
+          "蓝桥杯",
           "2022",
           "模拟",
           "省赛"
         ],
         "type": "contest_oj",
-        "difficulty": 30,
+        "difficulty": 20,
         "lab_id": null,
         "statistics": {
           "score": null,
           "open_at": null,
           "is_open": true,
-          "students_count": 56347,
+          "students_count": 56435,
           "pass_rate": 0.687
         },
         "contain_answer": true,

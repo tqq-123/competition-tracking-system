@@ -1,0 +1,36 @@
+{
+  "status": "success",
+  "problem_id": 1452,
+  "title": "题号 1452",
+  "competition": "蓝桥杯",
+  "skills": [
+    "算法编程"
+  ],
+  "parsed": {
+    "knowledge_points": [
+      {
+        "name": "字符串遍历",
+        "prerequisites": []
+      },
+      {
+        "name": "字符计数",
+        "prerequisites": [
+          "字符串遍历"
+        ]
+      },
+      {
+        "name": "哈希表",
+        "prerequisites": []
+      },
+      {
+        "name": "模拟",
+        "prerequisites": [
+          "字符串遍历",
+          "字符计数"
+        ]
+      }
+    ],
+    "difficulty": "简单",
+    "problem_type": "模拟题"
+  }
+}

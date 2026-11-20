@@ -30,7 +30,7 @@ const loading = ref(true)
 
 onMounted(async () => {
   try {
-    const res = await axios.get('http://localhost:8000/api/problems')
+    const res = await axios.get('/api/problems')
     problems.value = res.data.problems
     count.value = res.data.count
   } catch (e) {

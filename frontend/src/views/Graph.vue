@@ -5,15 +5,15 @@
     <div class="graph-container">
       <div class="section">
         <h3>节点</h3>
-        <div v-for="(n, i) in nodes" :key="i" class="node" :class="n.type">
+        <div v-for="(n, i) in nodes" :key="'n'+i" class="node" :class="n.type">
           <span class="type">{{ n.type }}</span>
-          <span class="name">{{ n.name }}</span>
+          <span class="name">{{ n.name || n.title || '无名称' }}</span>
         </div>
       </div>
       <div class="section">
         <h3>关系</h3>
-        <div v-for="(r, i) in relations" :key="i" class="relation">
-          {{ r.source }} <span class="rel-type">—[{{ r.relation }}]→</span> {{ r.target }}
+        <div v-for="(r, i) in relations" :key="'r'+i" class="relation">
+          {{ r.source || '无名称' }} <span class="rel-type">-[{{ r.relation }}]-></span> {{ r.target || '无名称' }}
         </div>
       </div>
     </div>
@@ -28,9 +28,17 @@ const nodes = ref([])
 const relations = ref([])
 
 onMounted(async () => {
-  const res = await axios.get('http://localhost:8000/api/graph')
-  nodes.value = res.data.nodes
-  relations.value = res.data.relations
+  try {
+    const res = await axios.get('/api/graph')
+    console.log("拿到数据了:", res.data)
+    // 核心修复：确保拿到数组
+    if (res.data && res.data.nodes && res.data.relations) {
+      nodes.value = res.data.nodes
+      relations.value = res.data.relations
+    }
+  } catch (e) {
+    console.error("加载图谱失败", e)
+  }
 })
 </script>
 

@@ -39,11 +39,26 @@ def parse_with_llm(problem_text):
         temperature=0.3
     )
     content = response.choices[0].message.content.strip()
-    if content.startswith("```"):
-        content = content.split("```")[1]
-        if content.startswith("json"):
-            content = content[4:]
-    return json.loads(content)
+    
+    # 打印出来看看大模型到底回了什么
+    print("======== 大模型原始返回 ========")
+    print(content)
+    print("================================")
+    
+    # 暴力提取 JSON 内容，过滤掉所有废话
+    start_idx = content.find('{')
+    end_idx = content.rfind('}')
+    
+    if start_idx != -1 and end_idx != -1:
+        json_str = content[start_idx:end_idx+1]
+        try:
+            return json.loads(json_str)
+        except Exception as e:
+            print(f"JSON解析失败: {e}")
+            return {"knowledge_points": []} 
+    else:
+        print("大模型没有返回JSON格式内容")
+        return {"knowledge_points": []}
 
 def main():
     parser = argparse.ArgumentParser()

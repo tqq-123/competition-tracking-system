@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "problem_id": 99,
+  "title": "题号 99",
+  "competition": "蓝桥杯",
+  "skills": [
+    "算法编程"
+  ],
+  "parsed": {
+    "knowledge_points": [
+      {
+        "name": "字符串遍历",
+        "prerequisites": []
+      },
+      {
+        "name": "字符统计",
+        "prerequisites": [
+          "字符串遍历"
+        ]
+      },
+      {
+        "name": "哈希表",
+        "prerequisites": [
+          "字符统计"
+        ]
+      },
+      {
+        "name": "条件判断",
+        "prerequisites": []
+      }
+    ],
+    "difficulty": "简单",
+    "problem_type": "模拟题"
+  }
+}

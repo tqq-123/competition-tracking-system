@@ -6,7 +6,7 @@
         <router-link to="/">首页</router-link>
         <router-link to="/problems">赛题追踪</router-link>
         <router-link to="/graph">知识图谱</router-link>
-        <router-link to="/path">学习路径</router-link>
+        <router-link to="/student">学生中心(备赛规划)</router-link>
         <router-link to="/changes">变更报告</router-link>
       </div>
     </nav>

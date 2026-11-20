@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "problem_id": 3493,
+  "title": "题号 3493",
+  "competition": "蓝桥杯",
+  "skills": [
+    "算法编程"
+  ],
+  "parsed": {
+    "knowledge_points": [
+      {
+        "name": "字符串遍历",
+        "prerequisites": []
+      },
+      {
+        "name": "字符频率统计",
+        "prerequisites": [
+          "字符串遍历",
+          "哈希表"
+        ]
+      },
+      {
+        "name": "哈希表",
+        "prerequisites": []
+      },
+      {
+        "name": "条件判断",
+        "prerequisites": []
+      },
+      {
+        "name": "枚举",
+        "prerequisites": [
+          "字符串遍历"
+        ]
+      }
+    ],
+    "difficulty": "简单",
+    "problem_type": "算法题"
+  }
+}

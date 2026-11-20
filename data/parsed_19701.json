@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "problem_id": 19701,
+  "title": "题号 19701",
+  "competition": "蓝桥杯",
+  "skills": [
+    "算法编程"
+  ],
+  "parsed": {
+    "knowledge_points": [
+      {
+        "name": "字符串遍历",
+        "prerequisites": []
+      },
+      {
+        "name": "字符计数",
+        "prerequisites": [
+          "字符串遍历"
+        ]
+      },
+      {
+        "name": "哈希表",
+        "prerequisites": [
+          "字符计数"
+        ]
+      },
+      {
+        "name": "条件判断",
+        "prerequisites": []
+      }
+    ],
+    "difficulty": "简单",
+    "problem_type": "模拟题"
+  }
+}
